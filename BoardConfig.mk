@@ -33,7 +33,7 @@ TARGET_KERNEL_CONFIG := lineageos_deathly_n1awifi_defconfig
 IR_HAS_ONE_FREQ_RANGE := true
 
 # Hardware
-BOARD_HARDWARE_CLASS += device/samsung/n1awifi/cmhw
+BOARD_HARDWARE_CLASS += device/samsung/exynos5420-common/cmhw
 
 # Includes
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
