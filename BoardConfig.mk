@@ -20,6 +20,9 @@ LOCAL_PATH := device/samsung/n1awifi
 BOARD_VENDOR := samsung
 TARGET_SOC := exynos5420
 
+# Linker
+LINKER_FORCED_SHIM_LIBS := /system/vendor/lib/egl/libGLES_mali.so|libpopcountsi2.so:/system/bin/gpsd|libdmitry.so
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 
